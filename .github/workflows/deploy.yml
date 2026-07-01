@@ -12,7 +12,6 @@ permissions:
 
 jobs:
    deploy-producao:
-    needs: validacao-html
     runs-on: ubuntu-latest
     steps:
     - name: Baixar código
